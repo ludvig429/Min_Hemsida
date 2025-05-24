@@ -28,12 +28,24 @@ p {color: #d1a993; }
 #FOALText:hover {color: black;}
 /*Kod för texten "freak on a leash"*/
 
-#fuel {float: left; margin: auto;}
-#fuel2 {float: right; margin: auto;}
+#fuel {display: block; 
+      float: left; 
+      margin: auto;
+      height: auto;
+      width: 40%;
+    }
+
+#fuel2 {display: block; 
+      float: right; 
+      margin: auto;
+      height: auto;
+      width: 40%;
+    }
+      
 
 
 #halloween {transition: transform 0.3s ease-in-out;
-  margin: auto; display: block;} 
+  margin: auto; display: block; height: auto; width: auto;} 
 
 #halloween:hover {transform: matrix(1.1, 0, 0, 1.1, 0,0);/* Animation när man håller musen på objektet */ }
 
