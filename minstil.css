@@ -1,0 +1,68 @@
+/* Author: Ludvig Laine EEDat2 */
+
+body {background-image:url(bilder/smoke-wallpaper.webp)}
+#Welcome { color: #D1A993; text-align: center; font-family: 'Times New Roman', Times, serif; }
+p {color: #d1a993; }
+
+#Pelle {color:#D1A993;
+}
+#Battery {color: white;}
+/*Utseende för texten som tillhör java koden*/
+
+#One {border:2px solid #d1a993;max-height: 100px;max-width: 950px; padding: 10px; margin: auto; background-color: black;}
+/*Storlek, placering och färg för löptexten */
+
+
+#FOAL {display: block; margin: auto;
+	border:5px solid black; 
+	background-color: rgb(255, 0, 0);
+    text-align: center;
+    border-radius: 20px;
+    width: 437px; text-align: center;padding: 20px;
+    margin: auto;
+}
+#FOAL:hover {background-color: rgb(197, 0, 0);}
+/*Kod för lådan som Texten "freak on a leash" ligger i*/
+
+#FOALText {color: white;}
+#FOALText:hover {color: black;}
+/*Kod för texten "freak on a leash"*/
+
+#fuel {float: left; margin: auto;}
+#fuel2 {float: right; margin: auto;}
+
+
+#halloween {transition: transform 0.3s ease-in-out;
+  margin: auto; display: block;} 
+
+#halloween:hover {transform: matrix(1.1, 0, 0, 1.1, 0,0);/* Animation när man håller musen på objektet */ }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:red;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(197, 0, 0);
+  }
+
+#Twist {background-color: purple;}
+#Hey:hover {background-color: rgb(70, 0, 70);}
+
+
+/* Referens till eleven: https://www.w3schools.com/css/default.asp */

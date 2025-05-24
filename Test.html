@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- Author: Ludvig Laine EEDat2 -->
+<html>
+
+<head>
+  
+  <meta charset="utf-8">
+  <title>Hello and Welcome</title>
+  <!--Websidans titel-->
+  <link rel="stylesheet" href="minstil.css"> 
+  <!--Denna kod länkar samman html koden med css koden-->
+
+</head>
+
+<body>
+<!--Under body är all kod som är synlig på hemsidan-->  
+
+  <ul id="Twist"> 
+    <li><a id="Hey" class="active" href="index.html">Hem</a></li>
+    <li><a id="Hey" href="bluetheme.html">Blå</a></li>
+    <li><a id="Hey" href="Test.html">Java</a></li>
+    <li><a id=Hey href="#about">Om</a></li>
+  </ul>
+  <!--Länk lista-->
+  
+  <h1 id="Welcome">Welcome to the site</h1>
+  <!--Rubrik-->
+
+  <p>test för java kod</p>
+  <!--Text-->
+  
+  <p id="Battery">Write Something</p>: <input type="text" id="fname" oninput="upperCase()">
+  <p id="Battery">When you write in the input field, a function is triggered to transform the input to upper case.</p>
+  <!--Texten som hör till java koden-->
+  
+  <script>
+  function upperCase() {
+    const x = document.getElementById("fname");
+    x.value = x.value.toUpperCase();
+  }
+  </script>
+  <!--Åvan står kod för Javascript-->
+  
+
+</body>
+
+</html>
+<!-- Referens till eleven: https://www.w3schools.com/html/default.asp -->    
